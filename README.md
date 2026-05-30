@@ -1,2 +1,17 @@
-# email-spam-classifier.py
-An email spam classifier automatically filters unwanted emails from legitimate ones. It scans subject lines and body text for spam keywords like "free," "winner," and "urgent," assigning scores to each. If the total score crosses a set threshold, the email is flagged as spam. This protects users from phishing attacks and advertisements daily.
+# Email Spam Classifier
+
+A beginner rule-based email spam classifier built in Python.
+
+## How it works
+- Scans emails for spam keywords (free, winner, urgent, etc.)
+- Subject line is weighted 2x more than the body
+- Scores above 6.0 are flagged as SPAM
+
+## Run it
+```bash
+python spam_classifier.py
+```
+
+## Tech
+- Python 3
+- No external libraries required
